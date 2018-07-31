@@ -1,0 +1,60 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "atkins search",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "search",
+                    "slots": [
+                        {
+                            "name": "title",
+                            "type": "AMAZON.Book"
+                        }
+                    ],
+                    "samples": [
+                        "Search for {title}"
+                    ]
+                },
+                {
+                    "name": "getcampusid",
+                    "slots": [
+                        {
+                            "name": "campusid",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{campusid}",
+                        "it's {campusid}",
+                        "it is {campusid}",
+                        "My campus id is {campusid}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "titles",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "jeep"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
