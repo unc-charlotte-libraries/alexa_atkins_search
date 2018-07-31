@@ -1,2 +1,2 @@
 # alexa_atkins_search
-Lyrasis Grant - Exlibris Atkins Library Search Skill
+Lyrasis Catalyst Fund Award - UNC Charlotte - J. Murrey Atkins Library - Exlibris Atkins Library Search Skill
