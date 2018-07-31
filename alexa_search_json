@@ -43,18 +43,7 @@
                     ]
                 }
             ],
-            "types": [
-                {
-                    "name": "titles",
-                    "values": [
-                        {
-                            "name": {
-                                "value": "jeep"
-                            }
-                        }
-                    ]
-                }
-            ]
+            "types": []
         }
     }
 }
